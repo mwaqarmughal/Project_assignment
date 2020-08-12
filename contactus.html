@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="bg-primary">
+        <ul id="taskbar" class="row">
+            <a href="./home.html" class="p-2 text-white text-inline">Home</a>
+            <a href="./products.html" class="p-2 text-white">Products</a>
+            <a href="./contactus.html" class="p-2 text-white">Contact Us</a>
+            <a href="./cart.html" class="p-2 text-white">
+                <i class="fa fa-cart-arrow-down"></i>
+            </a>
+            <a href="./index.html" class="p-2 text-white">Login</a>
+            <a href="./signup.html" class="p-2 text-white">Register</a>
+        </ul>
+    </div>
+    <h1 class="center text-info">Contact Us by following medium</h1>
+    <div class="container">
+        <div class="container center">
+            <p>Contact us on email <span class="text-primary">shoppers@gmail.com</span></p>
+        </div>
+        <div class="form-group col-sm-6 container">
+            <label for="emailcontactus">Email</label>
+            <input type="email" class="form-control" name="emailcontactus" id="emailcontactus"
+                aria-describedby="contactus" placeholder="Enter email">
+        </div>
+        <div class="form-group col-sm-6 container">
+            <label for="contactname">Name</label>
+            <input type="text" class="form-control" name="contactname" id="contactname" aria-describedby="helpId"
+                placeholder="Enter your name">
+        </div>
+        <div class="form-group col-sm-6 container">
+            <label for="contacttopic">Reason of Contacting</label>
+            <input type="text" class="form-control" name="contacttopic" id="contacttopic" aria-describedby="helpId"
+                placeholder="Enter reason in two to three words">
+        </div>
+        <div class="form-group col-sm-6 container">
+            <label for="contactdetail">Detail of contacting</label>
+            <textarea class="form-control" name="contactdetail" id="contactdetail" rows="5"></textarea>
+            <button class="btn btn-success m-3">Submit </button>
+        </div>
+    </div>
+</body>
+
+</html>

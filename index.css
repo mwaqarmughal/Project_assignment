@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#taskbar li {
+    display: inline
+}
+
+div {
+    width: 100%;
+}
+
+#main {
+    height: 500px;
+}
+#main{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}

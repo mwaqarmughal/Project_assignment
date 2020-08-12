@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Cart</title>
+</head>
+
+<body>
+    
+    <div class="bg-primary">
+        <ul id="taskbar" class="row">
+            <a href="./home.html" class="p-2 text-white text-inline">Home</a>
+            <a href="./products.html" class="p-2 text-white">Products</a>
+            <a href="./contactus.html" class="p-2 text-white">Contact Us</a>
+            <a href="./cart.html" class="p-2 text-white">
+                <i class="fa fa-cart-arrow-down"></i>
+            </a>
+            <a href="./index.html" class="p-2 text-white">Login</a>
+            <a href="./signup.html" class="p-2 text-white">Register</a>
+        </ul>
+    </div>
+    <table class="table container">
+        <thead>
+            <tr>
+                <th> </th>
+                <th> Detail</th>
+                <th></th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Sum</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Shoes</td>
+                <td>2</td>
+                <td>250</td>
+                <td>250</td>
+                <td>
+                    <button class="btn btn-danger">Remove</button>
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">Watch</td>
+                <td>4</td>
+                <td>39.5</td>
+                <td>158</td>
+                <td>
+                    <button class="btn btn-danger">Remove</button>
+                </td>
+            </tr>
+            <tr class="center">
+                <td>Sub total</td>
+                <td>408</td>
+            </tr>
+            <tr class="center">
+                <td>Tax</td>
+                <td>6%</td>
+            </tr>
+            <tr class="center">
+                <td>Total</td>
+                <td>432.48</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
